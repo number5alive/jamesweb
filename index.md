@@ -10,8 +10,8 @@ sitemap:
   <div class="row py-lg-5">
     <div class="col-lg-4 col-md-2"></div>
     <div class="col-lg-6 col-md-8 mx-auto textcontainer">
-      <h1 class="fw-light"><b>Eloise (Fun Size) Robbins</b></h1>
-      <p class="fw-light"><b>Adventurer, Triple-Crowner, Freelance Adventure Writer</b></p>
+      <h1 class="fw-light" style="color: orange"><b>James Richard Robbins</b></h1>
+      <p class="fw-light" style="color: black"><b>Marine vertibrate biologist</b></p>
     </div>
   </div>
 </section>
@@ -22,72 +22,13 @@ sitemap:
 <div class="album py-2 bg-light">
   <div class="container">
 
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-j g-3">
        
-      <div class="col">
-        <div class="card shadow-sm">
-          <div class="bg-image">
-            <a href="/writing.html">
-            <picture>
-              <!-- Somewhat non-intuitively, this picture is bigger at middle screen sizes
-                   because the cards get stacked -->
-              <source type="image/webp" media="(max-width:350px)" srcset="/images/withfs/patagonia-320.webp">
-              <source type="image/webp" media="(max-width:580px)" srcset="/images/withfs/patagonia-1024.webp">
-              <source type="image/webp" media="(min-width:551px)" srcset="/images/withfs/patagonia-640.webp">
-              <img src="/images/withfs/patagonia-1024.jpg" class="img-fluid" alt="Professional Writing Background"/>
-            </picture>
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-              <div class="d-flex justify-content-center align-items-center h-100">
-                <p class="text-white mb-0">Professional Writing</p>
-              </div>
-            </div>
-            </a>
-          </div>          
-
-          <div class="card-body">
-            <p class="card-text">A summary of some of my professional freelance articles.</p>
-          </div>
-        </div>
-      </div>
-       
-      <div class="col">
-        <div class="card shadow-sm">
-          <div class="bg-image">
-            <a href="/blog.html">
-            <picture>
-              <!-- Somewhat non-intuitively, this picture is bigger at middle screen sizes
-                   because the cards get stacked -->
-              <source type="image/webp" media="(max-width:350px)" srcset="/images/withoutfs/tentcarcajoue-320.webp">
-              <source type="image/webp" media="(max-width:580px)" srcset="/images/withoutfs/tentcarcajoue-1024.webp">
-              <source type="image/webp" media="(min-width:551px)" srcset="/images/withoutfs/tentcarcajoue-640.webp">
-              <img src="/images/withoutfs/tentcarcajoue-1024.jpg" class="img-fluid" alt="Adventure Blogs"/>
-            </picture>
-            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
-              <div class="d-flex justify-content-center align-items-center h-100">
-                <p class="text-white mb-0">Adventure Blogs</p>
-              </div>
-            </div>
-            </a>          
-          </div>          
-
-          <div class="card-body">
-            <p class="card-text">Blogs from my PCT, CDT, AT, and Long Trail thru hikes.</p>
-          </div>
-        </div>
-      </div>
-
       <div class="col">
         <div class="card shadow-sm">
           <div class="bg-image">
             <a href="/about.html">
-            <picture>
-              <!-- Somewhat non-intuitively, this picture is bigger at middle screen sizes
-                   because the cards get stacked -->
-              <source type="image/webp" media="(max-width:350px)" srcset="/images/justfs/atshelter-320.webp">
-              <source type="image/webp" media="(max-width:580px)" srcset="/images/justfs/atshelter-1024.webp">
-              <source type="image/webp" media="(min-width:551px)" srcset="/images/justfs/atshelter-640.webp">
-              <img src="/images/justfs/atshelter-1024.jpg" class="img-fluid" alt="More About Me"/>
-            </picture>
+              <img src="https://lh3.googleusercontent.com/pw/ACtC-3cIxKLFNNJ11H_VAVEiDYVD2xteHf2EskJVpmRWgIkjg50tzNybVPegQA4Jgy7xbG9tPS0guBXi44SPUSkYcIHkpJEMQJdJhjp89e9h2Eg08WZBiR2udjvA7OHoEMU51JWQm8WF74o7hZo3mTj2XbdGTQ=w640-no?authuser=0" class="img-fluid" alt="More About Me"/>
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
               <div class="d-flex justify-content-center align-items-center h-100">
                 <p class="text-white mb-0">More About Me</p>
@@ -98,6 +39,25 @@ sitemap:
 
           <div class="card-body">
             <p class="card-text">A little bit more about myself, my adventures, and what's coming up next.</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col">
+        <div class="card shadow-sm">
+          <div class="bg-image">
+            <a href="/writing.html">
+              <img src="https://lh3.googleusercontent.com/pw/ACtC-3fhDtCDmv0BGP5yxhcqHAvHmX_hSH1-YvHttXMmzdFhDP8PyrFp7tFsdVX6aBa2gJYvLOlXFD89WFuYc7Fc0rOKo-be5BKkWMVbh4KsDfHPLx4chiRQtvkeA_af0Cz5m6J75VpaaCZq4e_wPdsXrNoAHA=w640-no?authuser=0" class="img-fluid" alt="Research and Publications"/>
+            <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <p class="text-white mb-0">Research and Publications</p>
+              </div>
+            </div>
+            </a>
+          </div>          
+
+          <div class="card-body">
+            <p class="card-text">A summary of some of my professional articles.</p>
           </div>
         </div>
       </div>

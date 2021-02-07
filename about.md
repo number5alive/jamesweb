@@ -5,7 +5,7 @@ title: About Me
 
 <div class="row row-cols-1 row-cols-sm-2 p-3">
   <div class="col-sm-4">
-      <img src="/images/justfs/inwinterfood-1024.jpg" class="img-fluid" alt="Adventure Blogs"/>
+ <img src="https://lh3.googleusercontent.com/pw/ACtC-3eBC2YIwJ_q_0zpnEDRUcY94ONMFl0TenCHFeI_dir0DukjJx4i2IfRsLDfIKbkm25pR-b3yymZZ7DqzDN6cG9GH3U8Y_uZCR5__ERKlU8QzRbnkEYadCj9p93uBO3HmogXqn3bneZPU7VCUJpRpGNZKQ=w640-no?authuser=0" class="img-fluid" alt="James Robbins"/> 
   </div>
   <div class="col-sm-8 col-lg-6 pt-2">
     <p>I am a marine mammal biologist currently undertaking a PhD at the University of Portsmouth (UK), investigating the risk of ship collisions with whales and other cetaceans (whales, dolphins and porpoises) in the north-east Atlantic. I'm broadly interested in human-induced impacts on the marine environment, polar ecology, animal behaviour and the conservation of marine vertebrates.</p>
