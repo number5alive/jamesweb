@@ -69,7 +69,7 @@ Vagrant.configure("2") do |config|
     apt-get install -y ruby-full build-essential zlib1g-dev
   SHELL
    
-  $script = "/bin/bash --login /vagrant/setupruby.sh"
+  $script = "/bin/bash --login /vagrant/dev/setupruby.sh"
   config.vm.provision "shell", privileged: false, inline: $script
    
   config.vm.provision "file", source: "~/.gitconfig", destination: ".gitconfig"

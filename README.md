@@ -13,14 +13,24 @@ I have Vagrant set up so it can start a development VM for testing
  - Vagrant
  - VirtualBox
   
-### Then to see it all in action, simply do the following
+### INITIAL Setup (you only have to do this once)
 ```
 $ vagrant up
 $ vagrant ssh
-$ gem install bundler
+# you have to reboot once due to something that gets installed
+$ sudo reboot now # this will kick you out, that's okay, just wait a moment or two
+$ vagrant ssh
 $ cd /vagrant
-$ gem build
-$ bundle exec jekyll serve --host 0.0.0.0 --force-polling
+$ gem install bundler
+$ bundle install
+```
+
+### Running the development server 
+```
+$ vagrant up
+$ vagrant ssh
+$ cd /vagrant
+$ bundle exec jekyll serve --host 0.0.0.0 --port 4100 --force-polling
 ```
 
 You'll now be able to view the page from your host OS via <http://127.0.0.1:4100>
