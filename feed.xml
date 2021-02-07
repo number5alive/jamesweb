@@ -1,0 +1,69 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ site.title }}</title>
+  <subtitle>Covering the adventures and the writings of Eloise Robbins (Fun Size)</subtitle>
+  <link href="{{ site.url }}/feed.xml" rel="self"/>
+  <id>{{ site.url }}/</id>
+  <category term="outdoors"/>
+  <category term="hiking"/>
+  <category term="adventure"/>
+     
+  {% comment %}
+    Ooof... this is gross! Loop through once to find the latest update time
+            You'll see most of this code again when we include the posts
+            There's certainly a better way, but I'm being lazy!
+            Ultimately this is because the <updated> tag has to be before all the entries
+  {% endcomment %}
+  {% assign timeframe = 604800 %}
+               
+  {% assign feed_updated_time = 0 %}
+  {% for post in site.categories.news limit: 1 %}
+    {% assign latest_news_in_seconds = post.date | date: "%s" | plus: 0 %}
+    {% assign a_week_ago = "now" | date: "%s" | minus: timeframe  %}
+     
+    {% if latest_news_in_seconds > a_week_ago %}
+      {% assign feed_updated_time = latest_news_in_seconds %}
+    {% endif %}
+  {% endfor %}
+
+  {% for post in site.categories.blog limit: 10 %}
+    {% if forloop.first == true %}
+      <!-- last meaningful site update for RSS feed is data of latest news or latest blog -->
+      {% assign newest_blog_in_seconds = post.date | date: "%s" | plus: 0 %}
+      {% if newest_blog_in_seconds > feed_updated_time %}
+        {% assign feed_updated_time=newest_blog_in_seconds %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+     
+  <updated>{{ feed_updated_time | date_to_xmlschema }}</updated>
+
+  <author>
+   <name>Eloise Robbins</name>
+   <uri>{{site.url}}/about.html</uri>
+  </author>
+
+  <icon>/images/icons/favicon.ico</icon>
+  <logo>/images/icons/favicon2.png</logo>
+     
+  <!-- Add the latest news if it's less than a week old -->
+  {% for post in site.categories.news limit: 1 %}
+    {% assign latest_news_in_seconds = post.date | date: "%s" | plus: 0 %}
+    {% assign a_week_ago = "now" | date: "%s" | minus: timeframe  %}
+     
+    {% if latest_news_in_seconds > a_week_ago %}
+      {% include feedentry.html %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- add the last ten blog posts -->
+  {% for post in site.categories.blog limit: 10 %}
+    {% include feedentry.html %}
+  {% endfor %}
+     
+</feed>

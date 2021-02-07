@@ -1,0 +1,25 @@
+
+title: Fun Size Hikes
+baseurl: ""
+url: "https://jamesrichardrobbins.com"
+
+permalink: /:categories/:title:output_ext
+ 
+defaults:
+ - scope:
+    path: "images/banners"
+   values:
+    bannerimg: true
+       
+author:
+  - name: James Robbins
+
+ 
+# Leave off the development files and any other cruft so it doesn't go into the page
+exclude:
+  - Vagrantfile
+  - dbgchrome.sh
+  - gcloud.sh
+  - setupruby.sh
+  - CNAME
+  - README.md
