@@ -12,7 +12,7 @@ title: Contact Me
  
 <div class="container-fluid">
   <div class="row">
-    <div class="col-4 d-none d-sm-block contactpicture" style="background-image: url('images/justfs/atpctterminus-1024.webp');">
+    <div class="col-4 d-none d-sm-block contactpicture" style="background-image: url('images/lep-selfie-crop.png');">
       <div class="contacttext">
       </div>
     </div>
