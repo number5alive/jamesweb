@@ -18,10 +18,9 @@ layout: null
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
   background-color: #fff;
-  background-image: url('https://lh3.googleusercontent.com/pw/ACtC-3c3rSKLl0j20yeqoBy22aTpOUlgV2xCTLeJb48SShuhuSkPrcvuxgO9EdWba9ZAFT5GkKa3yDK0I4eTF6zBYXzOuhXUOhnJ0Yw52D1PW79tkvLc2dyayL6NcitfJA9vKORxi0rwtmPg1KP4ggZCTVyfVw=w1024-no?authuser=0');
+  background-image: url('/images/banners/sealslong.jpg');
   background-repeat: no-repeat;
-/*  background-position: top left; */
-  background-position: middle left;
+  background-position: top left;
   background-size: cover;
 }
 @media (min-width: 768px) {
@@ -45,8 +44,8 @@ layout: null
   background: rgba(200,200,200,0.2);
   border-radius: 10px;
   padding: 2rem;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: black;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
 footer {

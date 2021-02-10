@@ -8,10 +8,9 @@ sitemap:
 
 <section class="py-5 text-center jumbotron" id="jumbotron">
   <div class="row py-lg-5">
-    <div class="col-lg-4 col-md-2"></div>
-    <div class="col-lg-6 col-md-8 mx-auto textcontainer">
-      <h1 class="fw-light" style="color: orange"><b>James Richard Robbins</b></h1>
-      <p class="fw-light" style="color: black"><b>Marine vertibrate biologist</b></p>
+    <div class="col-lg-6 col-md-8 mx-auto mt-4 textcontainer">
+      <h1 class="fw-light"><b>James Richard Robbins</b></h1>
+      <p class="fw-light"><b>Marine vertebrate biologist</b></p>
     </div>
   </div>
 </section>
